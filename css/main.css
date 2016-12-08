@@ -1357,6 +1357,7 @@ header .logo a {
 	background: #0e0e0e;
 }
 
+.top-part img {box-shadow: 0px 10px 30px 0px #ccc;}
 
 /* ===================================================================
  * 11. intro - (_layout.scss)
