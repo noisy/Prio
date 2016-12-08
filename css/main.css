@@ -80,6 +80,30 @@ body {
 	color: #292c35;
 }
 
+.info-entry .half1 {
+    background: url("../images/bg.jpg") !important;
+    animation: city 30s linear infinite;
+    -webkit-animation: city 26s linear infinite;
+   }
+   @keyframes city {
+    0% {-webkit-transform:rotate(0deg);
+        -moz-transform:rotate(0deg);
+        -o-transform:rotate(0deg);
+        transform:rotate(0deg);}
+    100% {-webkit-transform:rotate(360deg);
+        -moz-transform:rotate(720deg);
+        -o-transform:rotate(360deg);
+        transform:rotate(360deg);}
+   }
+   @-webkit-keyframes city {
+    from { background-position: -10px 100%, 0 0;}
+    to { background-position: 0 100%, 0 0; }
+   }
+.info-entry .half2  {
+	
+	background-image:url("../images/bg2.jpg") !important;
+	
+}
 /* ------------------------------------------------------------------- 
  * links - (_document-setup) 
  * ------------------------------------------------------------------- */
@@ -1371,7 +1395,7 @@ header .logo a {
 	position: relative;
 	z-index: 600;
 }
-
+.feature-icon { width:40%; margin:0px auto;}
 #intro h3 {
 	text-transform: uppercase;
 	letter-spacing: .5rem;
@@ -1380,12 +1404,12 @@ header .logo a {
 }
 
 #intro h1 {
-	
+	font-family: "domine-bold", serif;
 	font-size: 5.3rem;
 	line-height: 1.267;
-	color: #3c72cb;
+	color: #ccbd7c;
 	padding: 0 12%;
-	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+	
 }
 
 #intro .buttons {
@@ -1539,12 +1563,19 @@ header .logo a {
 
 #features .feature-count {
 	display: block;
-	color: #ed254d;
-	font-family: "roboto-bold", serif;
-	font-size: 4rem;
-	line-height: 1;
+	color: #333333 ;
+	font-family: "domine-bold", serif;
+    font-size: 3.7rem;
+    line-height: 1.216;
+    padding-bottom: 1.5rem;
+    position: relative;
 	margin-bottom: 2.4rem;
+	text-align: center;
 }
+
+.feature-content  p {font-size: 1.7rem;
+    line-height: 1.416;
+	text-align: center;}
 
 /* ------------------------------------------------------------------- 
  * responsive:
