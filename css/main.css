@@ -28,7 +28,7 @@
  *
  * =================================================================== */
 
-
+.preloader { }
 /* ===================================================================
  * 01. webfonts and iconfonts - (_document-setup.scss)
  *
@@ -511,7 +511,7 @@ img.pull-left {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #151515;
+	background: #e1e1e1;
 	z-index: 900;
 	height: 100%;
 	width: 100%;
